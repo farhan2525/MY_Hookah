@@ -1,0 +1,316 @@
+@media (min-width:320px) and (max-width:576px){
+
+/* ============= Navbar Css start ============= */
+nav .navbar-toggler-icon{
+    color: #fff;
+    display: inline;
+}
+nav .navbar-collapse{
+    margin-top: 15px;
+}
+nav .navbar-nav{
+    background: #000;
+    text-align: center;
+}
+nav ul li .active::after{
+    display: none;
+}
+nav ul li a:hover::after{
+    width: 0%;
+    border-color:transparent ;
+}
+nav ul li a{
+    font-size: 16px;
+    padding: 20px 10px !important;
+    margin: 0 0;
+}
+/* ============= Navbar Css end ============= */
+
+
+/* ============= banner Css start ============= */
+
+#banner_part .banner {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#banner_part .banner .item h3{
+    font-size: 24px;
+}
+#banner_part .banner .item h1{
+    font-size: 40px;
+    margin-top:0 ;
+}
+#banner_part .banner .item h2 {
+	font-size: 40px;
+}
+#banner_part .banner .item p {
+	width: auto;
+	font-size: 20px;
+	margin-top: 30px;
+}
+#banner_part .banner .item p::after{
+    width: 80px;
+}
+#banner_part .banner .item p::before{
+    width: 80px;
+}
+#banner_part .slick-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#banner_part .slick-dots li{
+    display: inline-block;
+    margin: 0 5px;
+}
+#banner_part .slick-dots li button{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border:1px solid #fff;
+    border-radius: 50%;
+
+}
+#banner_part .slick-dots .slick-active button{
+    background-color:#ed5034 ;
+    border-color: transparent;
+    border-radius: 40%;
+}
+/* ============= banner Css end ============= */
+
+
+/* ============= story Css start ============= */
+#story_part{
+    padding: 50px;
+    text-align: center;
+}
+#story_part .left .img .round {
+	width: 55px;
+	height: 55px;
+}
+#story_part .left .img .round .icon {
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+}
+#story_part .left .img .round .icon i{
+    font-size: 13px;
+}
+#story_part .right{
+    margin-left: 0;
+    text-align: left;
+}
+#story_part .right h1{
+    font-size: 35px;
+}
+#story_part .right p {
+	font-size: 13px;
+	line-height: 22px;
+    margin-top: 30px;
+}
+#story_part .right a {
+	width: 180px;
+	height: 60px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+#story_part .right a span {
+	font-size: 18px;
+}
+/* ============= story Css end ============= */
+
+
+/* ============= hour Css start ============= */
+#hour {
+	padding: 30px 0;
+}
+#hour .wineBG{
+    display: none;
+}
+#hour .item {
+	margin-left: 0px;
+}
+#hour #next {
+	font-size: 20px;
+	margin-left: 0px;
+}
+#hour .item .counterbg {
+	width: 130px;
+	height: 130px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+#hour .item .counterbg p {
+	font-size: 50px;
+	line-height: 125px;
+}
+#hour .item .counterbg h2 {
+	font-size: 18px;
+	margin-top: -60px;
+}
+#hour .text {
+	border-left: 1px solid transparent;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+#hour .text h3 {
+	font-size: 24px;
+	margin-bottom: 45px;
+}
+#hour .text h4 {
+	font-size: 24px;
+}
+/* ============= hour Css end ============= */
+
+
+/* ============= hour Css start ============= */
+#team_part {
+	margin: 30px 0;
+}
+#team_part .title {
+	margin-bottom: 60px;
+}
+#team_part .teamBGImg .smoke {
+	display: none;
+}
+#team_part .team p {
+	margin-bottom: 0px;
+}
+/* ============= hour Css end ============= */
+
+/* ============= gallery Css start ============= */
+#gallery_part {
+	margin: 60px 0;
+}
+#gallery_part .gallery .img .icon {
+	width: 50px;
+	height: 50px;
+}
+#gallery_part .gallery .img .icon i {
+	line-height: 50px;
+	font-size: 25px;
+}
+#gallery_part .button {
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 30px;
+}
+#gallery_part .button a {
+	font-size: 16px;
+}
+/* ============= gallery Css end ============= */
+
+/* ============= reservation Css start ============= */
+#reservation {
+	padding-bottom: 60px;
+}
+#reservation .img .formLeftImg {
+	width: 100%;
+}
+#reservation .img .formimgBG{
+    display: none;
+}
+#reservation .title {
+	margin-left: 00px;
+	margin-top: 30px;
+}
+#reservation .title h1 {
+	font-size: 30px;
+}
+#reservation form input[type="text"] {
+	width: 90%;
+}
+#reservation form input[type="email"] {
+	width: 90%;
+}
+#reservation form select {
+	width: 43%;
+	margin-bottom: 10px;
+}
+#reservation form textarea.comment {
+	width: 90%;
+	height: 140px;
+}
+#reservation form .btn {
+	width: 90%;
+	font-size: 16px;
+}
+/* ============= reservation Css end ============= */
+
+/* ============= testimonial Css start ============= */
+#testimonial_part {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+#testimonial_part .title h1 {
+	font-size: 38px;
+}
+#testimonial_part .testimonial {
+	margin: auto 5px;
+	display: block;
+}
+#testimonial_part .testimonial .img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+#testimonial_part .testimonial .img img {
+	width: 100%;
+}
+#testimonial_part .testimonial .text {
+	width: 100%;
+	text-align: center;
+}
+#testimonial_part .testimonial .text p {
+	font-size: 16px;
+}
+#testimonial_part .testimonial .text h2 {
+	font-size: 20px;
+}
+#testimonial_part .testimonial .text .icons {
+	margin-top: 5px;
+}
+#testimonial_part .testimonial .text .icons i {
+	font-size: 16px;
+}
+#testimonial_part .slick-slider .prev {
+	top: 25%;
+	left: -10px;
+}
+#testimonial_part .slick-slider .next {
+	top: 25%;
+	right: -10px;
+}
+/* ============= testimonial Css end ============= */
+
+
+/* ============= footer Css start ============= */
+footer {
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+footer .contact {
+	margin-bottom: 30px;
+}
+footer .open {
+	margin-bottom: 30px;
+}
+footer .icons::after {
+	display: none;
+}
+footer .icons::before {
+	display: none;
+}
+footer .icons a {
+	margin: 0 0;
+	width: 70px;
+	height: 70px;
+}
+footer p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+/* ============= footer Css end ============= */
+}
