@@ -29,11 +29,15 @@ $('.banner_slider').slick({
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows:false,
+          dots:true, 
         }
       }
     ]
   });
-
+  $(document).ready(function(){
+    $('.venobox').venobox(); 
+  });
   $('.counter').counterUp();
   $('.team_slider').slick({
     dots: true,

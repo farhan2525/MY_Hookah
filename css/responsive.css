@@ -119,6 +119,28 @@ nav ul li a{
 #story_part .right a span {
 	font-size: 18px;
 }
+/* ============= story_page Css start ============= */
+#story_part .right .bottomPart {
+	display: block;
+	margin-bottom: 20px;
+}
+#story_part .right .img {
+	margin: 15px auto;
+}
+#story_part .counterUP {
+	padding:15px 5px ;
+	display: block;
+	margin: 20px auto;
+}
+#story_part .counterUP .item h2 {
+	font-size: 35px;
+}
+#story_part .counterUP .item p {
+	font-size: 18px;
+}
+/* ============= story_page Css end ============= */
+
+
 /* ============= story Css end ============= */
 
 
@@ -201,6 +223,20 @@ nav ul li a{
 #gallery_part .button a {
 	font-size: 16px;
 }
+/* ============= gallery_page Css start ============= */
+#galleryP_part {
+	padding: 60px 0;
+}
+#galleryP_part .img {
+	width: 125%;
+	margin: 0 0 10px 0;
+}
+#galleryP_part .img .icon {
+	display: none;
+}
+/* ============= gallery_page Css end ============= */
+
+
 /* ============= gallery Css end ============= */
 
 /* ============= reservation Css start ============= */
@@ -238,6 +274,41 @@ nav ul li a{
 	width: 90%;
 	font-size: 16px;
 }
+/* ============= conat_page Css start ============= */
+#conatct_us {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#conatct_us h1 {
+	font-size: 28px;
+}
+#conatct_us .We’ll::after {
+	bottom: -20px;
+	left: 120px;
+}
+#conatct_us .We’ll {
+	font-size: 13px;
+	width: 100%;
+	margin: 10px auto;
+}
+#conatct_us .image {
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 80px;
+}
+#conatct_us .conterUP {
+	width: 100%;
+}
+#conatct_us .conterUP .item p {
+	font-size: 40px;
+}
+#conatct_us .conterUP .item h4 {
+	font-size: 16px;
+	margin: -25px 0;
+}
+/* ============= conat_page Css end ============= */
+
+
 /* ============= reservation Css end ============= */
 
 /* ============= testimonial Css start ============= */
