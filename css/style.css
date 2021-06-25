@@ -44,59 +44,67 @@ a {
 
 /* ========================= navbar css start here ===================== */
 
-nav {
+.navbar {
     position: absolute !important;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 999;
+    padding: 0;
 }
 
 nav ul li {
     margin: 0px 10px;
 }
-
-nav ul li a {
-    margin: -8px 0px;
+nav ul li .nav-link {
     padding: 30px 20px !important;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    transition: all linear .8s;
-    color: #fff !important;
+    transition: all linear .4s;
+    color: #fff ;
     position: relative;
     z-index: 2;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
-nav ul li a:hover {
-    color: #ed5034 !important;
+nav ul li .nav-link:hover {
+    color: #ed5034 ;
 }
 
-nav ul li a::after {
+nav ul li .nav-link::after{
     position: absolute;
     top: 0;
     left: 0;
-    width: 0%;
+    width: 100%;
     border-bottom: 3px solid transparent;
     height: 100%;
-    background: #fff;
+    background: transparent;
     content: "";
-    transition: all linear .2s;
+    transition: all linear .4s;
     z-index: -1;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
-nav ul li a:hover::after {
+nav ul li .nav-link:hover::after{
+    background: #fff; 
     width: 100%;
-    border-color: #ed5034;
+    border-bottom: 3px solid #ed5034;
 }
 
-nav ul li .active::after {
-    border-color: #ed5034;
+nav ul li .active{
+    color: #ed5034 ;
+}
+nav ul li .active::after{
+    background: #fff; 
     width: 100%;
-}
-
-nav ul li .active {
-    color: #ed5034 !important;
+    border-bottom: 3px solid #ed5034;
 }
 
 /* ========================= navbar css end here ===================== */
@@ -209,6 +217,10 @@ nav ul li .active {
     text-align: center;
     line-height: 70px;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 #banner_part .slick-slider .prev:hover {
@@ -231,6 +243,10 @@ nav ul li .active {
     text-align: center;
     line-height: 70px;
     transition: all linear .3s;
+    -webkit-transform: translateX(110%);
+    -moz-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+    -o-transform: translateX(110%);
 }
 
 #banner_part .slick-slider .next:hover {
@@ -275,8 +291,12 @@ nav ul li .active {
     align-items: center;
     position: absolute;
     top: 40%;
-    left: 60%;
-    transform: translateX(-55%);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 #story_part .left .img .round .icon {
@@ -422,6 +442,10 @@ nav ul li .active {
     justify-content: center;
     opacity: 0;
     transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 #story_part .right .img:hover .overlay {
@@ -1476,7 +1500,12 @@ footer .icons a:hover {
     color: #fff;
     background: #ed5034;
 }
-
+footer .last{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
 /* =========================== 
    footer_part css end here 
 ============================== */
